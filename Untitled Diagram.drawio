@@ -1,1 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2021-07-27T09:58:55.433Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" version="14.6.9" etag="RIzJBlceY_ZY4PoKxXdj" type="github"><diagram id="FfU0HedOUEbuC13lyb3h">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-27T11:20:42.973Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="4gz3D0diHQUVgRto3zjA" version="14.6.9" type="github">
+  <diagram id="FfU0HedOUEbuC13lyb3h" name="Page-1">
+    <mxGraphModel dx="1022" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wdyKrnAxuZo98FqqZVeC-6" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="10" width="700" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="wdyKrnAxuZo98FqqZVeC-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="360" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="wdyKrnAxuZo98FqqZVeC-2" value="Docker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="290" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wdyKrnAxuZo98FqqZVeC-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wdyKrnAxuZo98FqqZVeC-4" value="Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="130" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wdyKrnAxuZo98FqqZVeC-5" value="service shell script&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wdyKrnAxuZo98FqqZVeC-7" value="Your server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="460" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wdyKrnAxuZo98FqqZVeC-8" value="/tmp/&amp;lt;filename&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="390" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wdyKrnAxuZo98FqqZVeC-9" value="Splunk will monitor this file" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="340" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wdyKrnAxuZo98FqqZVeC-10" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="wdyKrnAxuZo98FqqZVeC-8" target="wdyKrnAxuZo98FqqZVeC-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="390" as="sourcePoint" />
+            <mxPoint x="690" y="340" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wdyKrnAxuZo98FqqZVeC-11" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="wdyKrnAxuZo98FqqZVeC-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="100" as="sourcePoint" />
+            <mxPoint x="430" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
